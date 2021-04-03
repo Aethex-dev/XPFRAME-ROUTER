@@ -1,6 +1,6 @@
 <?php
 
-namespace XENONMC\XPFRAME;
+namespace XENONMC\XPFRAME\Router;
 
 class App {
 
