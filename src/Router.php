@@ -1,8 +1,8 @@
 <?php
 
-namespace XENONMC\XPFRAME\Router;
+namespace XENONMC\XPFRAME;
 
-class App {
+class Router {
 
     function __construct()
     {
