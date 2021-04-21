@@ -21,7 +21,7 @@ class Router {
      *
      */
 
-    use \XENONMC\XPFRAME\Router\geturl;
+    use \XENONMC\XPFRAME\Router\request\get_url;
 
     /**
      * constructor
@@ -30,7 +30,7 @@ class Router {
 
     function __construct()
     {
-        
-        echo parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+        var_dump($this->get_url());
     }
 }
