@@ -4,6 +4,7 @@ namespace XENONMC\XPFRAME\Router\request;
 
 trait get_url
 {
+    
     /**
      * get url as an array
      * 
@@ -11,16 +12,12 @@ trait get_url
      */
     public function get_url(): array
     {
-        // get the full url as a string
+        // get the full url as an array
         $url['raw'] = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-
-        // split the url into an array
         $url['array'] = explode("/", $url['raw']);
 
-        // shift the array to remove the first useless array key
+        // shift the array to remove the first useless array key and remove blank values
         array_shift($url['array']);
-
-        // remove any blank url segments
         $url['array'] = array_filter($url['array']);
 
         // return the url array
