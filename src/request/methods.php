@@ -10,10 +10,11 @@ trait methods
      *
      * @param array $url url array to trigger this event on
      * @param int $response_code response code to set on this request being called
+     * @param bool $ignoreLastParamIsset
      * @param callable|null $callback function to trigger on this get event
      * @return bool if this get request as triggered
      */
-    public function on_get(array $url, int $response_code = 200, callable|null $callback = null): bool
+    public function on_get(array $url, int $response_code = 200, bool $ignoreLastParamIsset, callable|null $callback = null): bool
     {
         // get urls as an array
         $url = $this->build_url($url, $response_code)->url;
