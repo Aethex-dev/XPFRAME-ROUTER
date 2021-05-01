@@ -1,6 +1,6 @@
 <?php
 
-namespace XENONMC\XPFRAME\vendor\request\Router;
+namespace XENONMC\XPFRAME\vendor\Router\request;
 
 trait build_url
 {
