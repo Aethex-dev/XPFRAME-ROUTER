@@ -1,6 +1,6 @@
 <?php
 
-namespace XENONMC\XPFRAME\Router\request;
+namespace XENONMC\XPFRAME\vendor\request\Router;
 
 class Url
 {
@@ -32,7 +32,6 @@ class Url
         // build full raw url
         $url_raw = "";
         $url_index = 0;
-        
         foreach ($url as $url_segment) {
             $url_raw = $url_raw . $url_segment . "/"; 
         }

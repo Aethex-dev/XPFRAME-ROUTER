@@ -1,6 +1,6 @@
 <?php
 
-namespace XENONMC\XPFRAME\Router\request;
+namespace XENONMC\XPFRAME\vendor\request\Router;
 
 trait header
 {

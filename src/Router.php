@@ -1,11 +1,11 @@
 <?php
 
-namespace XENONMC\XPFRAME\Router;
-use XENONMC\XPFRAME\Router\request\get_url;
-use XENONMC\XPFRAME\Router\request\Url;
-use XENONMC\XPFRAME\Router\request\build_url;
-use XENONMC\XPFRAME\Router\request\header;
-use XENONMC\XPFRAME\Router\request\methods;
+namespace XENONMC\XPFRAME\vendor\Router;
+
+use XENONMC\XPFRAME\vendor\request\Router\build_url;
+use XENONMC\XPFRAME\vendor\request\Router\get_url;
+use XENONMC\XPFRAME\vendor\request\Router\header;
+use XENONMC\XPFRAME\vendor\request\Router\methods;
 
 class Router {
     
