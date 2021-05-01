@@ -2,10 +2,10 @@
 
 namespace XENONMC\XPFRAME\vendor\Router;
 
-use XENONMC\XPFRAME\vendor\request\Router\build_url;
-use XENONMC\XPFRAME\vendor\request\Router\get_url;
-use XENONMC\XPFRAME\vendor\request\Router\header;
-use XENONMC\XPFRAME\vendor\request\Router\methods;
+use XENONMC\XPFRAME\vendor\Router\request\build_url;
+use XENONMC\XPFRAME\vendor\Router\request\get_url;
+use XENONMC\XPFRAME\vendor\Router\request\header;
+use XENONMC\XPFRAME\vendor\Router\request\methods;
 
 class Router {
     
